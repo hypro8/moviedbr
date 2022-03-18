@@ -64,7 +64,7 @@ body {
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 ul {
   list-style-type: none;
@@ -144,6 +144,7 @@ Search
 */
 .search-section {
   position: sticky;
+  /* position: fixed; */
   top: 0;
   left: 0;
   z-index: 100;
@@ -225,9 +226,10 @@ Movies
   display: grid;
   gap: 2rem;
   margin: 0 auto;
-  margin-top: 10rem;
-  padding-bottom: 5rem;
-  padding-top: 3rem;
+  /* margin-top: 10rem; */
+  margin-top: 2.6rem;
+  /* padding-bottom: 5rem;
+  padding-top: 3rem; */
 }
 .movie {
   position: relative;
