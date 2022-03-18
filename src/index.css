@@ -139,7 +139,7 @@ Search
 ===============
 */
 .search-section {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   z-index: 100;
@@ -147,6 +147,7 @@ Search
   background-color: orange;
   box-shadow: 0 0 6px 0 rgb(0 0 0 / 50%);
   padding-top: 1rem;
+  overflow: hidden;
 
   /* position: relative; */
 }
